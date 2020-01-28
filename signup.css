@@ -1,0 +1,12 @@
+div.container{
+width:820px;
+height:700px;
+padding:10px;
+border:12 px solid red;
+border-style:dotted;
+margin:2px;
+background-color:gray;
+font-size:1.5em;
+position:relative;
+left:500px;
+}

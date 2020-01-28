@@ -1,0 +1,17 @@
+<html>
+<body>
+<?php
+include("config.php");
+session_start();
+
+$sql="SELECT * from category;
+$result=mysqli_query($db,$sql);
+if(mysqli_num_rows($result) > 0){
+while ($row=mysqli_fetch_assoc($result)){
+echo $row['Category_name'];
+echo"<br>";
+}
+}
+?>
+</body>
+</html>

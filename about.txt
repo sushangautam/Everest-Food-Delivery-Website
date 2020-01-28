@@ -1,0 +1,34 @@
+<html>
+<body>
+<h2>ABOUT US</h2>
+<br>
+<p><h1>A PASSION TO SERVE</h1>
+<h3>Four simple words comprise the Ninety Nine Restaurant & Pub's mission statement:</h3>
+<h1><b>The Everest Restaurant</b></h1>
+<p>
+Craving some delicious Greek food? Maybe you’re in the mood for a juicy steak? No matter what kind of meal you have in mind, The Spot Restaurant is ready to prepare it for you.
+
+Since 1973, The Spot Restaurant has been the go-to diner for residents of Binghamton, NY. Our diner serves breakfast all day, in addition to wholesome and flavorful dining options for lunch and dinner. From burgers to salads, seafood to pastas, you’ll find all kinds of hearty meals prepared fresh at The Spot Restaurant. Our diner also has a full bakery with delicious baked goods and other treats, including our famous cheesecake. Sounds delicious, right?
+
+The Spot Restaurant is open daily from 5 a.m. to 11 p.m. We’re here to serve you the best food around, whenever you’re looking for a great American restaurant in Binghamton, NY.
+</p>
+<h2>Now Presenting</h2>
+<h4>Your Next Event</h4>
+<p>
+If you’ve never been to our restaurant before, you should know that it's a large dining room that can seat many people. With that sort of space, we have the capacity to host a range of events and special occasions.
+
+The Spot Restaurant is happy to be the venue for your next presentation, reunion, party, luncheon or banquet. With two banquet rooms, presentation screens, an LCD projector and a podium, The Spot Restaurant can transform a space into the perfect site for your gathering.
+
+Whether you want to have your associates attend a training luncheon or you're planning a birthday party, trust that we have the space, equipment and menu to accommodate any occasion. To reserve a space for your next event, come by the restaurant or call (607) 723-8149 today.
+</p>
+<h2>Stop in...</h2>
+<h4>For a Drink or Sweet Treat</h4>
+<p>
+To top it all off, The Spot Restaurant also has a full bar and a bakery. Whether you want to stop in for an after work drink or a late night pastry, you’re sure to find what you’re looking for and a whole lot more.
+
+At The Spot Restaurant, we want to get to know you and your friends in the Binghamton, NY area. Hopefully you’ll come in and get to know us while enjoying our delicious food options.
+
+From beer to burgers, cheesecake to chops, we’re serving up what you're craving. Stop by our great Greek and American food diner in Binghamton, NY, tonight.
+</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?php
+	include("config.php");
+	session_start();
+
+$cname=$_POST['cardname'];
+$ptype=$_POST['paytype'];
+$ctype=$_POST['cardtype'];
+$cnumber=$_POST['cardnumber'];
+$emonth=$_POST['expmonth'];
+$eyear=$_POST['expyear'];
+$cvv=$_POST['cvv'];
+$sql= "SELECT * from payment";
+$result= mysqli_query($db,$sql);
+$row= mysqli_fetch_assoc($result);
+
+$sql= "INSERT INTO payment values('$cname','$ptype','$ctype',$cnumber,'$emonth',$eyear,$cvv)";
+
+if($db->query($sql)){
+echo "Payment Done Successfully";
+header("refresh:5, url=category.html");
+}
+else{
+echo "Error";
+}
+$db->close();
+$db
+?>

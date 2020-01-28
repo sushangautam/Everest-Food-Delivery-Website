@@ -1,0 +1,21 @@
+<html>
+<body>
+<iframe src='header.html' width='100%' height='140px' scrolling='no'></iframe>
+<h1 style="color:blue;">ADD FOOD ITEMS </h1>
+<hr>
+<div style="font-size: 40px; height:60%; weight:50%; position:absolute; left:80px; text-align:left; border: 4px solid red; background-color:lightblue; color:purple;">
+<br><br><br>
+<form action="/add_foods.php" method="post">
+Product Name <input type="text" size="120" style="height:30px;" name="prodname"><br>
+Choose Category <select size="1" name="categ" style="width:800px; height:30px;">
+<option value="starters">Starters</option><option value="sides">Sides</option><option value="mains">Mains</option><option value="desserts">Desserts</option><option value="drinks">Drinks</option>
+</select><br>
+Rate Rs. <input type="number" size="120" name="rate" style="height:30px;"><br>
+Description<input type="text" size="120" name="desc" style="height:30px;"><br>
+Specification<input type="text" size="120" name="specification" style="height:30px;"><br><br>
+<input type="file" name="foodimg" accept="image/*" size="120"><br><hr>
+<input type="image" src="img_submit.gif" name="submit" alt="Submit" width="48" height="48"><br>
+</form>
+</div>
+</body>
+</html>

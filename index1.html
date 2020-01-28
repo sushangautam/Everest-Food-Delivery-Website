@@ -1,0 +1,122 @@
+<html style="background-color:#778899;">
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="EVEREST FOOD DELIVERY">
+  <meta name="keywords" content="food,delivery,snacks,lunch,dinner,order food, everest restaurant">
+  <meta name="author" content="Sushan Gautam">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+EVEREST FOOD DELIVERY|FAVORITE FOOD ON YOUR DOORSTEP
+</title>
+<center>
+<h1 class="title" style="color:red; font-family:andhytaregular;"><b><i>EVEREST RESTAURANT</i></b></h1>
+</center>
+<img class="logo" src="ev.jpg" name="logo" style="height="7%; width="7%;">
+</head>
+<body>
+
+<div class="mainmenu">
+<a href="#"> </a>
+<a href="#"> </a>
+
+<a class="active" href="index1.html">Home</a>
+<a href="#categories">Categories</a>
+<a href="foods.php">Foods</a>
+<a href="about.html">About Us</a>
+<a href="feedback.html">Contact Us</a>
+<a href="signup.html"><button type="button" class="signup">Sign Up</button></a>
+<button onclick="document.getElementById('log').style.display='block' " style="float:left; margin-top:13px;">Login</button>
+</div>
+<h2 align="center">BEST RESTAURANT IN YOUR TOWN !!</h2>
+<p align="center">Order Anything and Get Your Order within 20 Minutes</p>
+<div class="slideshow-content">
+
+<div class="mySlides fade">
+<img src="1.jpg" style="width:100%; height:700px;">
+<div class="text"><h1 style="color:yellow;">It's easier to be faithful to a restaurant than it is to a woman.</h1></div>
+</div>
+
+<div class="mySlides fade">
+<img src="2.jfif" style="width:100%; height:700px;">
+<div class="text"><h1 style="color:yellow;">Get Your Mood Refreshed with Free Wine !</h1></div>
+</div>
+
+<div class="mySlides fade">
+<img src="3.jfif" style="width:100%; height:700px;">
+<div class="text"><h1 style="color:yellow;">Order 3 Burger & Get 1 Free</h1></div>
+</div>
+
+<div class="mySlides fade">
+<img src="4.jpg" style="width:100%; height:700px;">
+<div class="text"><h1 style="color:yellow;">Never Compare Us with Anyone Else !</h1></div>
+</div>
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<!@@@@@@@@@@@@ FOR LOGIN @@@@@@@@@>
+
+<div id="log" class="modal">
+	<form class="form1" action="login.php" method="post">
+	<div class="imgcontent">
+	<span onclick="document.getElementById('log').style.display='none' " class="close">&times;</span>
+	<img src="samplehuman.jpg" class="samplehuman">
+	</div>
+
+	<div class="content">
+	<b>USERNAME</b>
+	<input type="text" placeholder="Enter Username" name="uname" required>
+	<b>PASSWORD</b>
+	<input type="password" placeholder="Enter Password" name="psw" required>
+	<button type="submit" style="width:938px;">LOGIN</button>
+	<input type="checkbox" checked="checked" name="remember">Remember Me
+	</div>
+
+	<div class="content" style="background-color:#f1f1f1">
+	<button type="button" onclick="document.getElementById('log').style.display='none' " style="float:left;" class="cancelbtn">
+	CANCEL</button>
+	<span class="psw"><a href="#">Forgot Password</a></span>
+	</div>
+	</form>
+</div>
+
+<script>
+var modal=document.getElementById('log');
+
+window.onclick = function(event){
+	if (event.target == modal){
+		modal.style.display="none";
+	}
+}
+</script>
+
+</body>
+</html>
